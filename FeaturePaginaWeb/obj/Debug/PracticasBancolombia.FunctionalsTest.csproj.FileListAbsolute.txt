@@ -1,0 +1,98 @@
+C:\Users\jorge.moreno\Documents\Visual Studio 2017\Projects\PracticasBancolombia\PracticasBancolombia.FunctionalsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\jorge.moreno\Documents\Visual Studio 2017\Projects\PracticasBancolombia\PracticasBancolombia.FunctionalsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\jorge.moreno\Documents\Visual Studio 2017\Projects\PracticasBancolombia\PracticasBancolombia.FunctionalsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\jorge.moreno\Documents\Visual Studio 2017\Projects\PracticasBancolombia\PracticasBancolombia.FunctionalsTest\bin\Debug\PracticasBancolombia.FunctionalsTest.dll
+C:\Users\jorge.moreno\Documents\Visual Studio 2017\Projects\PracticasBancolombia\PracticasBancolombia.FunctionalsTest\bin\Debug\PracticasBancolombia.FunctionalsTest.pdb
+C:\Users\jorge.moreno\Documents\Visual Studio 2017\Projects\PracticasBancolombia\PracticasBancolombia.FunctionalsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\jorge.moreno\Documents\Visual Studio 2017\Projects\PracticasBancolombia\PracticasBancolombia.FunctionalsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\jorge.moreno\Documents\Visual Studio 2017\Projects\PracticasBancolombia\PracticasBancolombia.FunctionalsTest\bin\Debug\Selenium.StandardControls.dll
+C:\Users\jorge.moreno\Documents\Visual Studio 2017\Projects\PracticasBancolombia\PracticasBancolombia.FunctionalsTest\bin\Debug\WebDriver.dll
+C:\Users\jorge.moreno\Documents\Visual Studio 2017\Projects\PracticasBancolombia\PracticasBancolombia.FunctionalsTest\bin\Debug\WebDriver.Support.dll
+C:\Users\jorge.moreno\Documents\Visual Studio 2017\Projects\PracticasBancolombia\PracticasBancolombia.FunctionalsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\jorge.moreno\Documents\Visual Studio 2017\Projects\PracticasBancolombia\PracticasBancolombia.FunctionalsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\jorge.moreno\Documents\Visual Studio 2017\Projects\PracticasBancolombia\PracticasBancolombia.FunctionalsTest\bin\Debug\Selenium.StandardControls.xml
+C:\Users\jorge.moreno\Documents\Visual Studio 2017\Projects\PracticasBancolombia\PracticasBancolombia.FunctionalsTest\bin\Debug\WebDriver.xml
+C:\Users\jorge.moreno\Documents\Visual Studio 2017\Projects\PracticasBancolombia\PracticasBancolombia.FunctionalsTest\bin\Debug\WebDriver.Support.xml
+C:\Users\jorge.moreno\Documents\Visual Studio 2017\Projects\PracticasBancolombia\PracticasBancolombia.FunctionalsTest\obj\Debug\PracticasBancolombia.FunctionalsTest.csprojResolveAssemblyReference.cache
+C:\Users\jorge.moreno\Documents\Visual Studio 2017\Projects\PracticasBancolombia\PracticasBancolombia.FunctionalsTest\obj\Debug\PracticasBancolombia.FunctionalsTest.csproj.CoreCompileInputs.cache
+C:\Users\jorge.moreno\Documents\Visual Studio 2017\Projects\PracticasBancolombia\PracticasBancolombia.FunctionalsTest\obj\Debug\PracticasBancolombia.FunctionalsTest.dll
+C:\Users\jorge.moreno\Documents\Visual Studio 2017\Projects\PracticasBancolombia\PracticasBancolombia.FunctionalsTest\obj\Debug\PracticasBancolombia.FunctionalsTest.pdb
+C:\Users\jorge.moreno\Documents\Visual Studio 2017\Projects\PracticasBancolombia\PracticasBancolombia.FunctionalsTest\bin\Debug\PracticasBancolombia.FunctionalsTest.dll.config
+C:\Users\jorge.moreno\Documents\Visual Studio 2017\Projects\PracticasBancolombia\PracticasBancolombia.FunctionalsTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jorge.moreno\Documents\Visual Studio 2017\Projects\PracticasBancolombia\PracticasBancolombia.FunctionalsTest\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\jorge.moreno\Documents\Visual Studio 2017\Projects\PracticasBancolombia\PracticasBancolombia.FunctionalsTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\bancolombia\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\bancolombia\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\bancolombia\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\bancolombia\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\PracticasBancolombia.FunctionalsTest.dll.config
+C:\Users\bancolombia\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\PracticasBancolombia.FunctionalsTest.dll
+C:\Users\bancolombia\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\PracticasBancolombia.FunctionalsTest.pdb
+C:\Users\bancolombia\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\bancolombia\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\bancolombia\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\bancolombia\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\Selenium.StandardControls.dll
+C:\Users\bancolombia\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\bancolombia\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\WebDriver.dll
+C:\Users\bancolombia\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\WebDriver.Support.dll
+C:\Users\bancolombia\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\bancolombia\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\bancolombia\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\bancolombia\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\Selenium.StandardControls.xml
+C:\Users\bancolombia\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\WebDriver.xml
+C:\Users\bancolombia\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\WebDriver.Support.xml
+C:\Users\bancolombia\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\obj\Debug\PracticasBancolombia.FunctionalsTest.csprojResolveAssemblyReference.cache
+C:\Users\bancolombia\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\obj\Debug\PracticasBancolombia.FunctionalsTest.csproj.CoreCompileInputs.cache
+C:\Users\bancolombia\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\obj\Debug\PracticasBancolombia.FunctionalsTest.dll
+C:\Users\bancolombia\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\obj\Debug\PracticasBancolombia.FunctionalsTest.pdb
+D:\Mis Dcoumentos\escritorio\Escritorio\Clases de Automatizacion\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Mis Dcoumentos\escritorio\Escritorio\Clases de Automatizacion\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Mis Dcoumentos\escritorio\Escritorio\Clases de Automatizacion\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Mis Dcoumentos\escritorio\Escritorio\Clases de Automatizacion\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+D:\Mis Dcoumentos\escritorio\Escritorio\Clases de Automatizacion\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+D:\Mis Dcoumentos\escritorio\Escritorio\Clases de Automatizacion\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+D:\Mis Dcoumentos\escritorio\Escritorio\Clases de Automatizacion\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\PracticasBancolombia.FunctionalsTest.dll.config
+D:\Mis Dcoumentos\escritorio\Escritorio\Clases de Automatizacion\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\PracticasBancolombia.FunctionalsTest.dll
+D:\Mis Dcoumentos\escritorio\Escritorio\Clases de Automatizacion\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\PracticasBancolombia.FunctionalsTest.pdb
+D:\Mis Dcoumentos\escritorio\Escritorio\Clases de Automatizacion\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Mis Dcoumentos\escritorio\Escritorio\Clases de Automatizacion\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Mis Dcoumentos\escritorio\Escritorio\Clases de Automatizacion\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\Newtonsoft.Json.dll
+D:\Mis Dcoumentos\escritorio\Escritorio\Clases de Automatizacion\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\Selenium.StandardControls.dll
+D:\Mis Dcoumentos\escritorio\Escritorio\Clases de Automatizacion\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\TechTalk.SpecFlow.dll
+D:\Mis Dcoumentos\escritorio\Escritorio\Clases de Automatizacion\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\WebDriver.dll
+D:\Mis Dcoumentos\escritorio\Escritorio\Clases de Automatizacion\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\WebDriver.Support.dll
+D:\Mis Dcoumentos\escritorio\Escritorio\Clases de Automatizacion\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Mis Dcoumentos\escritorio\Escritorio\Clases de Automatizacion\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Mis Dcoumentos\escritorio\Escritorio\Clases de Automatizacion\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\Newtonsoft.Json.xml
+D:\Mis Dcoumentos\escritorio\Escritorio\Clases de Automatizacion\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\Selenium.StandardControls.xml
+D:\Mis Dcoumentos\escritorio\Escritorio\Clases de Automatizacion\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\WebDriver.xml
+D:\Mis Dcoumentos\escritorio\Escritorio\Clases de Automatizacion\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\WebDriver.Support.xml
+D:\Mis Dcoumentos\escritorio\Escritorio\Clases de Automatizacion\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\obj\Debug\PracticasBancolombia.FunctionalsTest.csprojResolveAssemblyReference.cache
+D:\Mis Dcoumentos\escritorio\Escritorio\Clases de Automatizacion\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\obj\Debug\PracticasBancolombia.FunctionalsTest.csproj.CoreCompileInputs.cache
+D:\Mis Dcoumentos\escritorio\Escritorio\Clases de Automatizacion\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\obj\Debug\PracticasBancolombia.FunctionalsTest.dll
+D:\Mis Dcoumentos\escritorio\Escritorio\Clases de Automatizacion\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\obj\Debug\PracticasBancolombia.FunctionalsTest.pdb
+C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\PracticasBancolombia.FunctionalsTest.dll.config
+C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\PracticasBancolombia.FunctionalsTest.dll
+C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\PracticasBancolombia.FunctionalsTest.pdb
+C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\Selenium.StandardControls.dll
+C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\WebDriver.dll
+C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\WebDriver.Support.dll
+C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\Selenium.StandardControls.xml
+C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\WebDriver.xml
+C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\WebDriver.Support.xml
+C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\obj\Debug\PracticasBancolombia.FunctionalsTest.csprojResolveAssemblyReference.cache
+C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\obj\Debug\PracticasBancolombia.FunctionalsTest.csproj.CoreCompileInputs.cache
+C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\obj\Debug\PracticasBancolombia.FunctionalsTest.dll
+C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\obj\Debug\PracticasBancolombia.FunctionalsTest.pdb
