@@ -38,6 +38,7 @@ namespace PracticasBancolombia.FunctionalsTest.SpecFlowExample
 
             informacionClientePage.SetData("Simula tu Cuota", "1999-01-01", "Tasa Fija", "Crédito con Pignoración de Pensiones Voluntarias", "36", "20000000" );
             informacionClientePage.SimularCredito();
+           
             //ScenarioContext.Current.Pending();
 
        
@@ -46,9 +47,8 @@ namespace PracticasBancolombia.FunctionalsTest.SpecFlowExample
         [Then(@"verifico Resultadosimulacion")]
         public void ThenVerificoResultadosimulacion()
         {
-            
-
-            //ScenarioContext.Current.Pending();
+            String resultado = informacionClientePage.ObtenerResultados();
+            Assert.AreEqual("$671,223.35", resultado);
         }
 
 

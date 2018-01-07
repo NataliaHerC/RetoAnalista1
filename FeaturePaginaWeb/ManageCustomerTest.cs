@@ -15,12 +15,12 @@ namespace PracticasBancolombia.FunctionalsTest
             IWebDriver driver = DriverFactory.GetDriver(TipoDriver.Chrome);
             PrincipalPage principalPage = new PrincipalPage(driver);
             ManageCustomerPage manageCustomerPage = principalPage.IngresarManageCustomersPage();
-            InformacionClientePage informacionClientePage = manageCustomerPage.NavegarAOpcionCrearCliente();
-            informacionClientePage.Identificacion = "111";
-            informacionClientePage.RazonSocial = "a";
-            informacionClientePage.Ciudad = "b";
-            informacionClientePage.TipoCliente = "c";
-            informacionClientePage.NivelRiesgo = "d";
+            //InformacionClientePage informacionClientePage = manageCustomerPage.NavegarAOpcionCrearCliente();
+            //informacionClientePage.Identificacion = "111";
+            //informacionClientePage.RazonSocial = "a";
+            //informacionClientePage.Ciudad = "b";
+            //informacionClientePage.TipoCliente = "c";
+            //informacionClientePage.NivelRiesgo = "d";
 
             //Act
             //informacionClientePage.CrearNuevoCliente();
@@ -41,21 +41,21 @@ namespace PracticasBancolombia.FunctionalsTest
             PrincipalPage principalPage = new PrincipalPage(driver);
             ManageCustomerPage manageCustomerPage = principalPage.IngresarManageCustomersPage();
             InformacionClientePage informacionClientePage = manageCustomerPage.NavegarAOpcionCrearCliente();
-            informacionClientePage.Identificacion = "";
-            informacionClientePage.RazonSocial = "a";
-            informacionClientePage.Ciudad = "b";
-            informacionClientePage.TipoCliente = "c";
-            informacionClientePage.NivelRiesgo = "d";
+            //informacionClientePage.Identificacion = "";
+            //informacionClientePage.RazonSocial = "a";
+            //informacionClientePage.Ciudad = "b";
+            //informacionClientePage.TipoCliente = "c";
+            //informacionClientePage.NivelRiesgo = "d";
 
             //Act
             //informacionClientePage.CrearNuevoCliente();
-            string mensajeerrorObtenido = informacionClientePage.MensajeErrorIdentificacion;
+            //string mensajeerrorObtenido = informacionClientePage.MensajeErrorIdentificacion;
            
 
             principalPage.Terminar();
 
             //Assert
-            Assert.AreEqual("The Identificacion field is required.", mensajeerrorObtenido,"Falló la validación" );
+            //Assert.AreEqual("The Identificacion field is required.", mensajeerrorObtenido,"Falló la validación" );
 
 
         }
