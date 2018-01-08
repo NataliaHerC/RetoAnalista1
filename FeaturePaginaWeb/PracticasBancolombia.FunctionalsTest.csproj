@@ -86,7 +86,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>CreateCustomer.feature</DependentUpon>
     </Compile>
-    <Compile Include="SpecFlowExample\CreateCustomerClientSteps.cs" />
+    <Compile Include="SpecFlowExample\CrearSimulacionClienteSteps.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

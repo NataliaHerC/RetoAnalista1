@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Diagnostics;
 
 using Microsoft.Office.Interop.Excel;
 
@@ -15,6 +16,14 @@ namespace PracticasBancolombia.FunctionalsTest
         {
             try
             {
+                //======================================================
+                //Creación del dotorio en caseo de no existir
+                //======================================================
+                if (!Directory.Exists("D:\\Resultado\\"))
+                {
+                    Directory.CreateDirectory("D:\\Resultado\\");
+                }
+
                 //======================================================
                 //Definición de variables
                 //======================================================
@@ -41,15 +50,11 @@ namespace PracticasBancolombia.FunctionalsTest
                     libroProyecto.Activate();
 
                     //======================================================
-                    //Hoja del credito
+                    //Selección de la hoja
                     //======================================================
                     hojaCredito = libroProyecto.Worksheets[1];
                     hojaCredito.Activate();
                     hojaCredito.Name = strNomHoja;
-                    hojaCredito.Cells[1, 1] = "CREDITO";
-                    hojaCredito.Cells[2, 1] = "VALOR CUOTA";
-                    hojaCredito.Cells[1, 2] = strNomHoja;
-                    hojaCredito.Cells[2, 2] = dblValorCredito;
                 }
                 else
                 {
@@ -59,37 +64,59 @@ namespace PracticasBancolombia.FunctionalsTest
                     libroProyecto = _excelApp.Workbooks.Open("D:\\Resultado\\" + nombreArchivo);
                     libroProyecto.Activate();
 
+                    //======================================================
+                    //Validación si la hoja existe
+                    //======================================================
                     Boolean existeHoja;
-                    existeHoja = false;
-                    foreach (Worksheet hojas in libroProyecto.Sheets)
-                    {
-                        if (hojas.Name == strNomHoja)
-                        {
-                            existeHoja = true;
-                        }
-                    }
+                    existeHoja = ValirdarExisteHoja(strNomHoja, libroProyecto);
 
+                    //======================================================
+                    //Creación de hoja
+                    //======================================================
+                    hojaCredito = libroProyecto.Worksheets.Add();
+                    hojaCredito.Activate();
+                    hojaCredito.Name = strNomHoja + "Aux";
+
+                    //======================================================
+                    //Si la hoja existe se elimina
+                    //======================================================
                     if (existeHoja == true)
                     {
                         hojaCredito = libroProyecto.Worksheets[strNomHoja];
                         hojaCredito.Delete();
                     }
-
-                    hojaCredito = libroProyecto.Worksheets.Add();
-                    hojaCredito.Activate();
+                    hojaCredito = libroProyecto.Worksheets[strNomHoja + "Aux"];
                     hojaCredito.Name = strNomHoja;
-                    hojaCredito.Cells[1, 1] = "CREDITO";
-                    hojaCredito.Cells[2, 1] = "VALOR CUOTA";
-                    hojaCredito.Cells[1, 2] = strNomHoja;
-                    hojaCredito.Cells[2, 2] = dblValorCredito;
                 }
+
+                //======================================================
+                //Llenado de la información 
+                //======================================================
+                hojaCredito.Cells[1, 1] = "Crédito";
+                hojaCredito.Cells[2, 1] = "Valor Cuota";
+                hojaCredito.Cells[1, 2] = strNomHoja;
+                hojaCredito.Cells[2, 2] = dblValorCredito;
+                hojaCredito.Columns[1].AutoFit();
+                hojaCredito.Columns[2].AutoFit();
 
                 //======================================================
                 //Guardar Archivo
                 //======================================================
                 libroProyecto.SaveAs("D:\\Resultado\\" + nombreArchivo);
-                libroProyecto.Close(0);
+                libroProyecto.Close();
                 _excelApp.Quit();
+
+                foreach (Process proceso in Process.GetProcesses())
+                {
+                    if (proceso.ProcessName == "EXCEL")
+                    {
+                        proceso.Kill();
+                    }
+                }
+
+                hojaCredito = null;
+                libroProyecto = null;
+                _excelApp = null;
             }
             catch (IOException e)
             {
@@ -128,6 +155,9 @@ namespace PracticasBancolombia.FunctionalsTest
                 strHojaSIM = "Inmobiliaria";
                 strHojaFIN = "Comparativo";
 
+                //======================================================
+                //Validación si el libro existe
+                //======================================================
                 if (File.Exists("D:\\Resultado\\" + nombreArchivo))
                 {
                     //======================================================
@@ -152,11 +182,17 @@ namespace PracticasBancolombia.FunctionalsTest
                         hojaInmobiliario = libroProyecto.Worksheets[strHojaSIM];
                         if (extHojaFIN == true)
                         {
-                            hojaComparativo = libroProyecto.Worksheets[strHojaCOM];
+                            //======================================================
+                            //Eliminación de la hoja del comparativo
+                            //======================================================
+                            hojaComparativo = libroProyecto.Worksheets[strHojaFIN];
                             hojaComparativo.Activate();
                             hojaComparativo.Delete();
                         }
 
+                        //======================================================
+                        //Llenado de datos
+                        //======================================================
                         hojaComparativo = libroProyecto.Worksheets.Add();
                         hojaComparativo.Activate();
                         hojaComparativo.Name = strHojaFIN;
@@ -168,21 +204,31 @@ namespace PracticasBancolombia.FunctionalsTest
                         hojaComparativo.Cells[2, 2] = hojaConsumo.Cells[2, 2].Value;
                         hojaComparativo.Cells[2, 3] = hojaInmobiliario.Cells[2, 2].Value;
 
+
+                        //======================================================
+                        //Validación de cuota mejor
+                        //======================================================
                         vlrCreConsumo = Convert.ToDouble(hojaConsumo.Cells[2, 2].Value);
                         vlrCreInmobiliario = Convert.ToDouble(hojaInmobiliario.Cells[2, 2].Value);
-
                         if (vlrCreConsumo < vlrCreInmobiliario)
                         {
+                            //Credito de consumo es mejor.
                             hojaComparativo.Cells[2, 4] = "Consumo";
                             hojaComparativo.Cells[2, 2].Interior.Color = XlRgbColor.rgbGreen;
                             hojaComparativo.Cells[2, 2].Font.Color = XlRgbColor.rgbWhite;
                         }
                         else
                         {
+                            //Credito de inmobiliario es mejor.
                             hojaComparativo.Cells[2, 4] = "Inmobiliaria";
                             hojaComparativo.Cells[2, 3].Interior.Color = XlRgbColor.rgbGreen;
                             hojaComparativo.Cells[2, 3].Font.Color = XlRgbColor.rgbWhite;
                         }
+
+                        hojaComparativo.Columns[1].AutoFit();
+                        hojaComparativo.Columns[2].AutoFit();
+                        hojaComparativo.Columns[3].AutoFit();
+                        hojaComparativo.Columns[4].AutoFit();
 
                         //======================================================
                         //Guardar Archivo
@@ -190,6 +236,17 @@ namespace PracticasBancolombia.FunctionalsTest
                         libroProyecto.SaveAs("D:\\Resultado\\" + nombreArchivo);
                         libroProyecto.Close(0);
                         _excelApp.Quit();
+                        hojaComparativo = null;
+                        libroProyecto = null;
+                        _excelApp = null;
+
+                    }
+                }
+                foreach (Process proceso in Process.GetProcesses())
+                {
+                    if (proceso.ProcessName == "EXCEL")
+                    {
+                        proceso.Kill();
                     }
                 }
             }
