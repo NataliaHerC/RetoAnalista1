@@ -14,7 +14,7 @@ namespace PracticasBancolombia.FunctionalsTest
             //Arrage
             IWebDriver driver = DriverFactory.GetDriver(TipoDriver.Chrome);
             PrincipalPage principalPage = new PrincipalPage(driver);
-            ManageCustomerPage manageCustomerPage = principalPage.IngresarManageCustomersPage();
+            //ManageCustomerPage manageCustomerPage = principalPage.IngresarManageCustomersPage();
             //InformacionClientePage informacionClientePage = manageCustomerPage.NavegarAOpcionCrearCliente();
             //informacionClientePage.Identificacion = "111";
             //informacionClientePage.RazonSocial = "a";
@@ -24,12 +24,12 @@ namespace PracticasBancolombia.FunctionalsTest
 
             //Act
             //informacionClientePage.CrearNuevoCliente();
-            bool resultadoVerificacion = manageCustomerPage.VerificarExistenciaRegistroCliente("111");
+            //bool resultadoVerificacion = manageCustomerPage.VerificarExistenciaRegistroCliente("111");
 
             principalPage.Terminar();
 
             //Assert
-            Assert.IsTrue(resultadoVerificacion, "El cliente no quedo creado enla lista de clientes");
+            //Assert.IsTrue(resultadoVerificacion, "El cliente no quedo creado enla lista de clientes");
 
 
         }
@@ -39,8 +39,8 @@ namespace PracticasBancolombia.FunctionalsTest
             //Arrage
             IWebDriver driver = DriverFactory.GetDriver(TipoDriver.Chrome);
             PrincipalPage principalPage = new PrincipalPage(driver);
-            ManageCustomerPage manageCustomerPage = principalPage.IngresarManageCustomersPage();
-            InformacionClientePage informacionClientePage = manageCustomerPage.NavegarAOpcionCrearCliente();
+            //ManageCustomerPage manageCustomerPage = principalPage.IngresarManageCustomersPage();
+            //InformacionClientePage informacionClientePage = manageCustomerPage.NavegarAOpcionCrearCliente();
             //informacionClientePage.Identificacion = "";
             //informacionClientePage.RazonSocial = "a";
             //informacionClientePage.Ciudad = "b";

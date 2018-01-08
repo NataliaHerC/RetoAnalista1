@@ -16,7 +16,6 @@ namespace PracticasBancolombia.FunctionalsTest.PageForObject
             driver = navegador;
             driver.Url = "http://www.google.com";
             driver.Navigate();
-            
             IWebElement barradebusqueda= driver.FindElement(By.Name("q"));
             barradebusqueda.SendKeys("Bancolombia");
             barradebusqueda.SendKeys(Keys.Enter);
@@ -24,9 +23,6 @@ namespace PracticasBancolombia.FunctionalsTest.PageForObject
             sucursalpersonas.Click();
             IWebElement parati = driver.FindElement(By.LinkText("Para Ti"));
             parati.Click();
-
-            //IWebElement myLink = driver.FindElement(By.Id("terminoBusqueda"));
-            //myLink.SendKeys("Bancolombia");
 
         }
 
@@ -37,31 +33,27 @@ namespace PracticasBancolombia.FunctionalsTest.PageForObject
             myLink.SendKeys(Keys.Enter);
          
         }
-        public ConvertPage IngresoSimuladorCreditoConsumo()
+        public void IngresoSimuladorCreditoConsumo()
         {
             IngresarOpcionMenu("Simulador");
             IWebElement simulador = driver.FindElement(By.LinkText("Simulador Crédito de Consumo"));
             simulador.Click();
 
-            
-            //IWebElement campoIdentificacion = driver.FindElement(By.Name("comboTipoSimulacion"));
-            //campoIdentificacion.Click();
-            //var selectElement = new SelectElement(campoIdentificacion);
-            //selectElement.SelectByValue(" Simula tu Cuota");
-
-            return new ConvertPage(driver);
-
         }
-        //public ConvertPage IngresarConvertPage()
-        //{
-           // IngresarOpcionMenu("Functional Test Sample");
-            //return new ConvertPage(driver);
-        //}
-        public ManageCustomerPage IngresarManageCustomersPage()
+
+        public void IngresoSimuladorCreditoSolucionInmobiliaria()
         {
-            IngresarOpcionMenu("Manage Customers");
-            return new ManageCustomerPage(driver);
+            IngresarOpcionMenu("Simulador");
+            IWebElement simulador = driver.FindElement(By.LinkText("Simulador Solución Inmobiliaria"));
+            simulador.Click();
+
         }
+
+        //public ManageCustomerPage IngresarManageCustomersPage()
+        //{
+        // IngresarOpcionMenu("Manage Customers");
+        // return new ManageCustomerPage(driver);
+        //}
 
         public void Terminar()
         {

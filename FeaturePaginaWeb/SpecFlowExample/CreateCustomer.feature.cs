@@ -18,7 +18,7 @@ namespace PracticasBancolombia.FunctionalsTest.SpecFlowExample
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "2.2.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute()]
-    public partial class SimularCreditoConsumoFeature
+    public partial class SimularCreditoFeature
     {
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
@@ -44,7 +44,7 @@ namespace PracticasBancolombia.FunctionalsTest.SpecFlowExample
         public static void FeatureSetup(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext testContext)
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner(null, 0);
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "SimularCreditoConsumo", null, ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "SimularCredito", null, ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -59,9 +59,9 @@ namespace PracticasBancolombia.FunctionalsTest.SpecFlowExample
         public virtual void TestInitialize()
         {
             if (((testRunner.FeatureContext != null) 
-                        && (testRunner.FeatureContext.FeatureInfo.Title != "SimularCreditoConsumo")))
+                        && (testRunner.FeatureContext.FeatureInfo.Title != "SimularCredito")))
             {
-                global::PracticasBancolombia.FunctionalsTest.SpecFlowExample.SimularCreditoConsumoFeature.FeatureSetup(null);
+                global::PracticasBancolombia.FunctionalsTest.SpecFlowExample.SimularCreditoFeature.FeatureSetup(null);
             }
         }
         
@@ -84,7 +84,7 @@ namespace PracticasBancolombia.FunctionalsTest.SpecFlowExample
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("SimularCreditoConsumo")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "SimularCreditoConsumo")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "SimularCredito")]
         public virtual void SimularCreditoConsumo()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("SimularCreditoConsumo", ((string[])(null)));
@@ -101,19 +101,19 @@ testRunner.Then("verifico Resultadosimulacion", ((string)(null)), ((TechTalk.Spe
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("SimularCreditoConsumo2")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "SimularCreditoConsumo")]
-        public virtual void SimularCreditoConsumo2()
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("SimularCreditoSolucionInmobiliaria")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "SimularCredito")]
+        public virtual void SimularCreditoSolucionInmobiliaria()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("SimularCreditoConsumo2", ((string[])(null)));
-#line 7
-this.ScenarioSetup(scenarioInfo);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("SimularCreditoSolucionInmobiliaria", ((string[])(null)));
 #line 8
-testRunner.Given("Ingreso a la pagina principal de Bancolombia", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+this.ScenarioSetup(scenarioInfo);
 #line 9
-testRunner.When("Lleno los datos", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+testRunner.Given("Ingreso a la pagina principal de Bancolombia y a la opción de simulador", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 10
-testRunner.Then("verifico Resultadosimulacion", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+testRunner.When("Diligenciar información de solución inmobiliaria", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 11
+testRunner.Then("verifico Resultado Simulacion", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
