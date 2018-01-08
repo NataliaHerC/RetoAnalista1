@@ -1,0 +1,2 @@
+C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\obj\x86\Debug\RetoAnalista1_NATAHERN.csprojResolveAssemblyReference.cache
+C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\obj\x86\Debug\RetoAnalista1_NATAHERN.csproj.CoreCompileInputs.cache

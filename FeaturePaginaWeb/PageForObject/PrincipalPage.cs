@@ -49,12 +49,7 @@ namespace PracticasBancolombia.FunctionalsTest.PageForObject
 
         }
 
-        //public ManageCustomerPage IngresarManageCustomersPage()
-        //{
-        // IngresarOpcionMenu("Manage Customers");
-        // return new ManageCustomerPage(driver);
-        //}
-
+    
         public void Terminar()
         {
             driver.Quit();

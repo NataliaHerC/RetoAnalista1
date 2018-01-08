@@ -2,6 +2,7 @@
 using OpenQA.Selenium;
 using PracticasBancolombia.FunctionalsTest.PageForObject;
 using System;
+using System.Threading;
 using TechTalk.SpecFlow;
 
 namespace PracticasBancolombia.FunctionalsTest.SpecFlowExample
@@ -10,7 +11,6 @@ namespace PracticasBancolombia.FunctionalsTest.SpecFlowExample
     public class CreateCustomerClientSteps
     {
         IWebDriver driver = null;
-        IWebDriver driver1 = null;
         PrincipalPage principalPage = null;
         InformacionClientePage informacionClientePage = null;
 
@@ -45,6 +45,8 @@ namespace PracticasBancolombia.FunctionalsTest.SpecFlowExample
         {
             String resultado = informacionClientePage.ObtenerResultados();
             Assert.AreEqual("$671,223.35", resultado);
+            Thread.Sleep(9000);
+            principalPage.Terminar();
         }
         // Simulador de Solucion Inmobiliaria
 
@@ -80,7 +82,8 @@ namespace PracticasBancolombia.FunctionalsTest.SpecFlowExample
             Assert.AreEqual("$1,195,303.97", cuota);
             Assert.AreEqual("$15,645.00", segurodevida);
             Assert.AreEqual("$30,130.80", seguroincendio);
-            
+            Thread.Sleep(9000);
+            principalPage.Terminar();
         }
 
         // Escenario de guardar informacion en excel de un credito de solucion inmobiliaria
@@ -90,8 +93,7 @@ namespace PracticasBancolombia.FunctionalsTest.SpecFlowExample
 
             double totalCuota = informacionClientePage.Sumavalorcuota();
             Assert.AreEqual(1241079.77, totalCuota);
-
-
+            
 
             //ScenarioContext.Current.Pending();
         }
@@ -101,6 +103,8 @@ namespace PracticasBancolombia.FunctionalsTest.SpecFlowExample
         public void ThenSeGuardaLaInformacionDeLaCuotaDelCreditoDeConsumoEnExcel()
         {
             informacionClientePage.ObtenerResultadosConsumo();
+            Thread.Sleep(9000);
+           
 
             //ScenarioContext.Current.Pending();
         }

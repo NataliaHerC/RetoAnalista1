@@ -70,9 +70,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DriverFabric\enum.cs" />
     <Compile Include="GenerarArchivoExcel.cs" />
     <Compile Include="DriverFabric\DriverFactory.cs" />
-    <Compile Include="DriverFabric\Enums.cs" />
     <Compile Include="PageForObject\InformacionClientePage.cs" />
     <Compile Include="PageForObject\PrincipalPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

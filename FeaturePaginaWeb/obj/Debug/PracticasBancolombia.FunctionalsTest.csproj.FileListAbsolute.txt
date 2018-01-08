@@ -92,7 +92,7 @@ C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.Function
 C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\Selenium.StandardControls.xml
 C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\WebDriver.xml
 C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\bin\Debug\WebDriver.Support.xml
-C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\obj\Debug\PracticasBancolombia.FunctionalsTest.csprojResolveAssemblyReference.cache
 C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\obj\Debug\PracticasBancolombia.FunctionalsTest.csproj.CoreCompileInputs.cache
 C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\obj\Debug\PracticasBancolombia.FunctionalsTest.dll
 C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\obj\Debug\PracticasBancolombia.FunctionalsTest.pdb
+C:\Users\natahern\Desktop\EjercicioCompletoClase12\PracticasBancolombia.FunctionalsTest\obj\Debug\PracticasBancolombia.FunctionalsTest.csprojResolveAssemblyReference.cache
