@@ -34,10 +34,6 @@ namespace PracticasBancolombia.FunctionalsTest.PageForObject
             IJavaScriptExecutor jse = (IJavaScriptExecutor)driver;
             jse.ExecuteScript("window.scrollBy(0,250)", "");
 
-            System.Threading.Thread.Sleep(5000);
-            
-            jse.ExecuteScript("window.scrollBy(0,250)", "");
-
             SelectElement selectProduct = new SelectElement(driver.FindElement(By.Name("comboTipoProducto")));
             selectProduct.SelectByValue("1");
 
@@ -83,6 +79,18 @@ namespace PracticasBancolombia.FunctionalsTest.PageForObject
             
         }
 
+        public void ObtenerResultadosConsumo()
+        {
+            IWebElement Capturarcuota = driver.FindElement(By.XPath("//tr[@ng-show='ctrl.visualizarSimulaCuota']")).FindElement(By.ClassName("monto"));
+            string cuota = Capturarcuota.Text;
+            cuota = cuota.Substring(1);
+            double cuotaconsumoexcel = Convert.ToDouble(cuota);
+            GenerarArchivoExcel arcExcel = new GenerarArchivoExcel();
+
+            arcExcel.CrearArchivoExcelCredito("Resultado.xlsx", cuotaconsumoexcel, "Consumo");
+            arcExcel.CompararResultado("Resultado.xlsx");
+         }
+
         public double Sumavalorcuota()
         {
             IWebElement Capturarcuota1 = driver.FindElement(By.XPath("//*[@id='sim-results']/div[1]/table/tbody/tr[17]/td[4]"));
@@ -101,10 +109,10 @@ namespace PracticasBancolombia.FunctionalsTest.PageForObject
             double seguroinc = Convert.ToDouble(seguroiyt);
 
             double total = CuotaCredito + segurovida + seguroinc;
-            double total1 = CuotaCredito + segurovida + seguroinc;
-
             GenerarArchivoExcel arcExcel = new GenerarArchivoExcel();
-            arcExcel.CrearArchivoExcel("resultado", total, total1);
+            arcExcel.CrearArchivoExcelCredito("Resultado.xlsx", total, "Inmobiliaria");
+            arcExcel.CompararResultado("Resultado.xlsx");
+
             return total;
                }
         public String ObtenerResultadosSIM()
@@ -113,9 +121,6 @@ namespace PracticasBancolombia.FunctionalsTest.PageForObject
 
             string cuotaconsumo = Capturarcuota1.Text;
             cuotaconsumo = cuotaconsumo.Substring(1);
-            double cuotaconsumoexcel = Convert.ToDouble(cuotaconsumo);
-           // GenerarArchivoExcel arcExcel = new GenerarArchivoExcel();
-            //arcExcel.CrearArchivoExcel("resultado", cuotaconsumo);
             return Capturarcuota1.Text;
 
         }

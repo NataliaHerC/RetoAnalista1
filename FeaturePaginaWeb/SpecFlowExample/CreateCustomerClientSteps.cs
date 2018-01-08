@@ -10,6 +10,7 @@ namespace PracticasBancolombia.FunctionalsTest.SpecFlowExample
     public class CreateCustomerClientSteps
     {
         IWebDriver driver = null;
+        IWebDriver driver1 = null;
         PrincipalPage principalPage = null;
         InformacionClientePage informacionClientePage = null;
 
@@ -26,7 +27,7 @@ namespace PracticasBancolombia.FunctionalsTest.SpecFlowExample
         [When(@"Lleno los datos")]
         public void WhenLlenoLosDatos()
         {
-            //informacionClientePage.Identificacion = "Simula tu Cuota";
+            
                    
             if (informacionClientePage == null) {
                 informacionClientePage = new InformacionClientePage(driver);
@@ -94,24 +95,16 @@ namespace PracticasBancolombia.FunctionalsTest.SpecFlowExample
 
             //ScenarioContext.Current.Pending();
         }
-        // Escenario de guardar informacion en excel de un credito de solucion inmobiliaria
+        // Escenario de guardar informacion en excel de un credito de consumo
 
         [Then(@"se guarda la informacion de la cuota del credito de consumo en excel")]
         public void ThenSeGuardaLaInformacionDeLaCuotaDelCreditoDeConsumoEnExcel()
         {
-
+            informacionClientePage.ObtenerResultadosConsumo();
 
             //ScenarioContext.Current.Pending();
         }
-
-        //Escenario de comparar
-
-        [Then(@"Se genera la comparacion en excel de la mejor cuota de la simulacion de Credito Consumo y simulacion Credito Hipotecario")]
-        public void ThenSeGeneraLaComparacionEnExcelDeLaMejorCuotaDeLaSimulacionDeCreditoConsumoYSimulacionCreditoHipotecario()
-        {
-            //ScenarioContext.Current.Pending();
-        }
-
+             
 
     }
 }

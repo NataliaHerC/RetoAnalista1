@@ -153,29 +153,6 @@ testRunner.Then("Se guarda la informacion de la cuota en excel", ((string)(null)
 #line hidden
             this.ScenarioCleanup();
         }
-        
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Comparar Informacion de la cuotas generadas en excel")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "SimularCredito")]
-        public virtual void CompararInformacionDeLaCuotasGeneradasEnExcel()
-        {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Comparar Informacion de la cuotas generadas en excel", ((string[])(null)));
-#line 24
-this.ScenarioSetup(scenarioInfo);
-#line 25
-testRunner.Given("Ingreso a la pagina principal de Bancolombia", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 26
-testRunner.When("Lleno los datos", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 27
-testRunner.Given("Ingreso a la pagina principal de Bancolombia y a la opción de simulador", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 28
-testRunner.When("Diligenciar información de solución inmobiliaria", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 29
-testRunner.Then("Se genera la comparacion en excel de la mejor cuota de la simulacion de Credito C" +
-                    "onsumo y simulacion Credito Hipotecario", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
-            this.ScenarioCleanup();
-        }
     }
 }
 #pragma warning restore
