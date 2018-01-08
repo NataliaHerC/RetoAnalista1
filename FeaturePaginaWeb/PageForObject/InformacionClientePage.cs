@@ -83,25 +83,40 @@ namespace PracticasBancolombia.FunctionalsTest.PageForObject
             
         }
 
-        public void sumavalorcuota()
+        public double Sumavalorcuota()
         {
             IWebElement Capturarcuota1 = driver.FindElement(By.XPath("//*[@id='sim-results']/div[1]/table/tbody/tr[17]/td[4]"));
             IWebElement Capturarseguro = driver.FindElement(By.XPath("//*[@id='sim-results']/div[1]/table/tbody/tr[21]/td[2]"));
             IWebElement Capturarinc = driver.FindElement(By.XPath("//*[@id='sim-results']/div[1]/table/tbody/tr[22]/td[2]"));
-            int valorcuota = Int32.Parse(Capturarcuota1.Text);
-            int segurovida = Int32.Parse(Capturarseguro.Text);
-            int seguroincyterremoto = Int32.Parse(Capturarseguro.Text);
-            int total = valorcuota + segurovida + seguroincyterremoto;
-            
-            GenerarArchivoExcel arcExcel = new GenerarArchivoExcel();
-            arcExcel.CrearArchivoExcel("Resultado", total);
+            string Cuota = Capturarcuota1.Text;
+            Cuota = Cuota.Substring(1);
+            double CuotaCredito = Convert.ToDouble(Cuota);
 
-        }
+            string seguro = Capturarseguro.Text;
+            seguro = seguro.Substring(1);
+            double segurovida = Convert.ToDouble(seguro);
+
+            string seguroiyt = Capturarinc.Text;
+            seguroiyt = seguroiyt.Substring(1);
+            double seguroinc = Convert.ToDouble(seguroiyt);
+
+            double total = CuotaCredito + segurovida + seguroinc;
+            double total1 = CuotaCredito + segurovida + seguroinc;
+
+            GenerarArchivoExcel arcExcel = new GenerarArchivoExcel();
+            arcExcel.CrearArchivoExcel("resultado", total, total1);
+            return total;
+               }
         public String ObtenerResultadosSIM()
         {
             IWebElement Capturarcuota1 = driver.FindElement(By.XPath("//*[@id='sim-results']/div[1]/table/tbody/tr[17]/td[4]"));
 
-                      return Capturarcuota1.Text;
+            string cuotaconsumo = Capturarcuota1.Text;
+            cuotaconsumo = cuotaconsumo.Substring(1);
+            double cuotaconsumoexcel = Convert.ToDouble(cuotaconsumo);
+           // GenerarArchivoExcel arcExcel = new GenerarArchivoExcel();
+            //arcExcel.CrearArchivoExcel("resultado", cuotaconsumo);
+            return Capturarcuota1.Text;
 
         }
 

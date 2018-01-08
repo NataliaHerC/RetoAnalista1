@@ -79,8 +79,39 @@ namespace PracticasBancolombia.FunctionalsTest.SpecFlowExample
             Assert.AreEqual("$1,195,303.97", cuota);
             Assert.AreEqual("$15,645.00", segurodevida);
             Assert.AreEqual("$30,130.80", seguroincendio);
-            informacionClientePage.sumavalorcuota();
+            
         }
+
+        // Escenario de guardar informacion en excel de un credito de solucion inmobiliaria
+        [Then(@"Se guarda la informacion de la cuota en excel")]
+        public void ThenSeGuardaLaInformacionDeLaCuotaEnExcel()
+        {
+
+            double totalCuota = informacionClientePage.Sumavalorcuota();
+            Assert.AreEqual(1241079.77, totalCuota);
+
+
+
+            //ScenarioContext.Current.Pending();
+        }
+        // Escenario de guardar informacion en excel de un credito de solucion inmobiliaria
+
+        [Then(@"se guarda la informacion de la cuota del credito de consumo en excel")]
+        public void ThenSeGuardaLaInformacionDeLaCuotaDelCreditoDeConsumoEnExcel()
+        {
+
+
+            //ScenarioContext.Current.Pending();
+        }
+
+        //Escenario de comparar
+
+        [Then(@"Se genera la comparacion en excel de la mejor cuota de la simulacion de Credito Consumo y simulacion Credito Hipotecario")]
+        public void ThenSeGeneraLaComparacionEnExcelDeLaMejorCuotaDeLaSimulacionDeCreditoConsumoYSimulacionCreditoHipotecario()
+        {
+            //ScenarioContext.Current.Pending();
+        }
+
 
     }
 }
