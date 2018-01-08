@@ -45,7 +45,7 @@ namespace PracticasBancolombia.FunctionalsTest.SpecFlowExample
         {
             String resultado = informacionClientePage.ObtenerResultados();
             Assert.AreEqual("$671,223.35", resultado);
-            Thread.Sleep(9000);
+            Thread.Sleep(5000);
             principalPage.Terminar();
         }
         // Simulador de Solucion Inmobiliaria
@@ -82,7 +82,7 @@ namespace PracticasBancolombia.FunctionalsTest.SpecFlowExample
             Assert.AreEqual("$1,195,303.97", cuota);
             Assert.AreEqual("$15,645.00", segurodevida);
             Assert.AreEqual("$30,130.80", seguroincendio);
-            Thread.Sleep(9000);
+            Thread.Sleep(5000);
             principalPage.Terminar();
         }
 
@@ -93,7 +93,9 @@ namespace PracticasBancolombia.FunctionalsTest.SpecFlowExample
 
             double totalCuota = informacionClientePage.Sumavalorcuota();
             Assert.AreEqual(1241079.77, totalCuota);
-            
+            Thread.Sleep(5000);
+            principalPage.Terminar();
+
 
             //ScenarioContext.Current.Pending();
         }
@@ -103,8 +105,9 @@ namespace PracticasBancolombia.FunctionalsTest.SpecFlowExample
         public void ThenSeGuardaLaInformacionDeLaCuotaDelCreditoDeConsumoEnExcel()
         {
             informacionClientePage.ObtenerResultadosConsumo();
-            Thread.Sleep(9000);
-           
+            Thread.Sleep(5000);
+            principalPage.Terminar();
+
 
             //ScenarioContext.Current.Pending();
         }
